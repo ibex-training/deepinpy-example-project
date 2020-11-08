@@ -1,0 +1,22 @@
+name: null
+
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - captum=0.2
+  - cudatoolkit=10.2
+  - jupyterlab=2.2
+  - jupyterlab-git=0.20
+  - nodejs=14
+  - pip=20.2
+  - pip:
+    - -r file:requirements.txt
+  - python=3.8
+  - pytorch=1.7
+  - tensorboard=2.3
+  - torchaudio=0.7
+  - torchtext=0.8
+  - torchvision=0.8
