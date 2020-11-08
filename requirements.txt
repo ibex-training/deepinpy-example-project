@@ -1,3 +1,6 @@
 jupyterlab-nvdashboard==0.4.*
 jupyter-tensorboard==0.2.*
 test-tube
+
+# install deepinpy
+git+https://github.com/utcsilab/deepinpy.git#egg=deepinpy
